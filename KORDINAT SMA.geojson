@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "KORDINAT SMA",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Nama sekolah": "SMK NEGERI 3 SELAYAR", "X": 120.45662, "Y": -6.12728 }, "geometry": { "type": "Point", "coordinates": [ 120.45662, -6.12728 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "SMKN 5 SELAYAR/KESEHATAN", "X": 120.45903, "Y": -6.12275 }, "geometry": { "type": "Point", "coordinates": [ 120.45903, -6.12275 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "MAN KEPULAUAN SELAYAR ", "X": 120.45943, "Y": -6.12108 }, "geometry": { "type": "Point", "coordinates": [ 120.45943, -6.12108 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "SMA MUHAMMADIYAH BENTENG", "X": 120.46058, "Y": -6.11706 }, "geometry": { "type": "Point", "coordinates": [ 120.46058, -6.11706 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "UPT SMA NEGERI 1 SELAYAR", "X": 120.46251, "Y": -6.11508 }, "geometry": { "type": "Point", "coordinates": [ 120.46251, -6.11508 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "SMKN 1 SELAYAR", "X": 120.46635, "Y": -6.10607 }, "geometry": { "type": "Point", "coordinates": [ 120.46635, -6.10607 ] } }
+]
+}

@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "ORDINAT SMP",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Nama sekolah": "UPT SMP NEGERI NO. 1 SELAYAR", "X": 120.46251, "Y": -6.11787 }, "geometry": { "type": "Point", "coordinates": [ 120.46251, -6.11787 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "Smp Negeri II Benteng", "X": 120.46422, "Y": -6.1061 }, "geometry": { "type": "Point", "coordinates": [ 120.46422, -6.1061 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "UPT SMP BENTENG UTARA N0. 4 SELAYAR ( STANDAR)", "X": 120.46422, "Y": -6.10614 }, "geometry": { "type": "Point", "coordinates": [ 120.46422, -6.10614 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "SMP MUHAMMADIYAH ", "X": 120.46042, "Y": -6.11737 }, "geometry": { "type": "Point", "coordinates": [ 120.46042, -6.11737 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "MTs MUHAMMADIYAH", "X": 120.46052, "Y": -6.1173 }, "geometry": { "type": "Point", "coordinates": [ 120.46052, -6.1173 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "Mts NURUL YAQIN BENTENG", "X": 120.45899, "Y": -6.12475 }, "geometry": { "type": "Point", "coordinates": [ 120.45899, -6.12475 ] } },
+{ "type": "Feature", "properties": { "Nama sekolah": "SMPIT AS SALAM", "X": 120.46768, "Y": -6.11442 }, "geometry": { "type": "Point", "coordinates": [ 120.46768, -6.11442 ] } }
+]
+}

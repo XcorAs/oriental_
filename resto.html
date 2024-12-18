@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Oriental</title>
+    <link rel="stylesheet" href="resto.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logodoang.png" alt="Logo" class="logo-img" />
+            <span class="logo-text">ORIENTAL</span>
+        </div>
+        <div class="navbar">
+            <a href="index.html">home</a>
+            <a href="resto.html">resto & cafe</a>
+            <a href="bakery.html">bakery & cake</a>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h1> Selamat Datang Di Oriental <br> Resto & Cafe </h1>
+    </div>
+    <div class="menu-container">
+        <div class="menu-column2">
+            <h2>Mie / Noodles</h2>
+            <div class="scroll-content">
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.10.35(1).jpeg" alt="Mie Hokkian">
+                    <div class="image-text"> Mie Hokkian </div>
+                </div>
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.10.37.jpeg" alt="Mie Pangsit Spesial">
+                    <div class="image-text"> Mie Pangsit Spesial </div>
+                </div>
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.18.58.jpeg" alt="Indomie Telur">
+                    <div class="image-text"> Indomie Telur </div>
+                </div>
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.18.48.jpeg" alt="Spaghetti">
+                    <div class="image-text"> Spaghetti </div>
+                </div>
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.18.54.jpeg" alt="Bakso">
+                    <div class="image-text"> Bakso</div>
+                </div>
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.10.34.jpeg" alt="Mie Titi">
+                    <div class="image-text"> Mie Titi</div>
+                </div>
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.10.27.jpeg" alt="Sop Ubi">
+                    <div class="image-text">Sop Ubi</div>
+                </div>
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.10.37(1).jpeg" alt="Ramen">
+                    <div class="image-text"> Ramen </div>
+                </div>
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.10.28(1).jpeg" alt="Gambar Kosong">
+                </div>
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.10.31.jpeg" alt="Mie Ayam">
+                    <div class="image-text">Mie Ayam</div>
+                </div>
+                <div class="image-container">
+                    <img src="WhatsApp Image 2024-11-27 at 02.10.35.jpeg" alt="Kapurung Betmen">
+                    <div class="image-text"> Kapurung Betmen</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-column">
+        <h2>Nasi / Rice</h2>
+        <div class="scroll-content">
+            <div class="image-container">
+                <img src="nasi2.jpeg">
+            </div>
+            <div class="image-container">
+                <img src="nasi3.jpeg">
+                <div class="image-text">Nasi Goreng Spesial</div>
+            </div>
+            <div class="image-container">
+                <img src="nasi4.jpeg">
+                <div class="image-text">Nasi Goreng Oriental</div>
+            </div>
+            <div class="image-container">
+                <img src="nasi12.jpeg">
+                <div class="image-text">ayam katsu</div>
+            </div>
+            <div class="image-container">
+                <img src="nasi5.jpeg">
+                <div class="image-text">udang krispi</div>
+            </div>
+            <div class="image-container">
+                <img src="nasi7.jpeg">
+                <div class="image-text">Ayam teriyaki</div>
+            </div>
+            <div class="image-container">
+                <img src="nasi10.jpeg">
+                <div class="image-text">bbq steak</div>
+            </div>
+            <div class="image-container">
+                <img src="nasi11.jpeg">
+            </div>
+            <div class="image-container">
+                <img src="nasi13.jpeg">
+                <div class="image-text">ayam goreng mentega</div>
+            </div>
+            <div class="image-container">
+                <img src="nasi14.jpeg">
+                <div class="image-text">sate</div>
+            </div>
+            <div class="image-container">
+                <img src="nasi1.jpeg">
+                <div class="image-text">Gado-Gado</div>
+            </div>
+            <div class="image-container">
+                <img src="nasi15.jpeg">
+                <div class="image-text">ayam geprek</div>
+            </div>
+            <div class="image-container">
+                <img src="nasi16.jpeg">
+                <div class="image-text">ricebowl chicken garlic</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-column">
+        <h2>Cemilan / Snack</h2>
+        <div class="scroll-content">
+            <div class="image-container">
+                <img src="snack1.jpeg">
+                <div class="image-text">roti bakar</div>
+            </div>
+            <div class="image-container">
+                <img src="snack2.jpeg">
+                <div class="image-text">pisang GORENG LUMPIA</div>
+            </div>
+            <div class="image-container">
+                <img src="snack3.jpeg">
+                <div class="image-text">ubi krispi</div>
+            </div>
+            <div class="image-container">
+                <img src="snack4.jpeg">
+                <div class="image-text">pisang goreng</div>
+            </div>
+            <div class="image-container">
+                <img src="snack5.jpeg">
+                <div class="image-text">pisang nuget</div>
+            </div>
+            <div class="image-container">
+                <img src="snack6.jpeg">
+                <div class="image-text">kentang goreng</div>
+            </div>
+            <div class="image-container">
+                <img src="snack7.jpeg">
+                <div class="image-text">sushi</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-column">
+        <h2>Minuman / Drink</h2>
+        <div class="scroll-content">
+            <div class="image-container">
+                <img src="minuman1.jpeg">
+                <div class="image-text">KOPI GULA AREN</div>
+            </div>
+            <div class="image-container">
+                <img src="minuman3.jpeg">
+                <div class="image-text">LEMONTEA</div>
+            </div>
+            <div class="image-container">
+                <img src="minuman2.jpeg">
+                <div class="image-text">jus alpukat</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <p>© 2024 INDRI RAMADHANI IMRAN. All rights reserved</p>
+</footer>
+
+</html>
